@@ -81,7 +81,7 @@ var questions = [{question: "Who did create the simpsons?",
                   option1: "Seymour Skinner",
                   option2: "Armando Barreda",
                   option3: "Principal Skinner",
-                  option4: "Armando Skinned",
+                  option4: "Armando Skinner",
                   answer: "option2"
                  },
                  {question: "How many children Apu had with Manjula?",
@@ -142,7 +142,7 @@ var questions = [{question: "Who did create the simpsons?",
                  },
                  {question: "Which vegetable has the kitchen curtains?",
                   option1: "Carrots",
-                  option2: "Corn",
+                  option2: "Corns",
                   option3: "Pees",
                   option4: "No vegetable",
                   answer: "option2"
@@ -160,7 +160,7 @@ window.onload = function () {
     run();
     intro.play();
     $("#start_button").on("click", start_game);
-    $("button").on("click", answer_selected);
+    $("label").on("click", answer_selected);
 };
 
 function start_game(){
