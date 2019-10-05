@@ -148,7 +148,7 @@ var questions = [{question: "Who did create the simpsons?",
                   answer: "option2"
                  },
 ]
-
+ 
 window.onload = function () {
     run();
     intro.play();
