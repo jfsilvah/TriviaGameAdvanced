@@ -1,0 +1,100 @@
+/*Body Styling */
+
+body{
+    /*background-image: url("../images/simple_background.jpg");
+    /*background-size: 100vw;*/
+    background-image: url("../images/simpsons_nubes.jpg");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-color: black;
+    font-family: 'Turret Road', cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  margin-top:80px;
+  font-weight: bold;
+  font-size: 4vw;
+  color: rgb(242,198,30);
+}
+
+h2{
+  font-size: 3vw;
+  color: rgb(242,198,30);
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none!important;
+}
+/* Boostrap Buttons Styling */
+
+.btn-primary {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: rgba(58, 133, 191, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(58, 133, 191, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background: rgba(58, 133, 191, 0.75);
+  border: 2px solid rgba(58, 133, 191, 0.75);
+}
+
+.btn-danger {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: rgba(217, 83, 78, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(217, 83, 78, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-danger:hover {
+  color: #FFF;
+  background: rgba(217, 83, 78, 0.75);
+  border: 2px solid rgba(217, 83, 78, 0.75);
+}
+
+.section_header{
+  justify-content:center;
+  color: rgb(126,28,66);
+  text-align: center;
+}
+
+.textCounter{
+  font-size: 2vw;
+}
+
+.question{
+  font-size: 2vw;
+  color: rgb(242,198,30);
+}
+
+.options{
+  font-family: 'Turret Road', cursive;
+  font-size: 2vw;
+}
+
+.card-wrapper {
+  margin: auto;
+}
+
+.card{
+  background-color: transparent;
+}
