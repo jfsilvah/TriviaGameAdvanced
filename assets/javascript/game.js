@@ -125,7 +125,7 @@ var questions = [{question: "Who did create the simpsons?",
                   option3: "8 months",
                   option4: "12 months",
                   answer: "option3"
-                 }
+                 },
                  {question: "Complete name of Homer",
                   option1: "Homer Simpson",
                   option2: "Homer Jay Simpson",
@@ -147,6 +147,13 @@ var questions = [{question: "Who did create the simpsons?",
                   option4: "No vegetable",
                   answer: "option2"
                  },
+                 {question: "Best Bart's friend",
+                  option1: "Nelson",
+                  option2: "Ralph",
+                  option3: "Milhouse",
+                  option4: "Louis",
+                  answer: "option3"
+                }
 ]
  
 window.onload = function () {
