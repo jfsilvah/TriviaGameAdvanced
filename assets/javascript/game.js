@@ -267,6 +267,10 @@ function runNextQuestion(){
     actual_question++;
     question_answered = false;
     if (actual_question<questions.length){
+        $("#option1").removeClass("active");
+        $("#option2").removeClass("active");
+        $("#option3").removeClass("active");
+        $("#option4").removeClass("active");
         $(".card-header").text(questions[actual_question].question);
         $("#option1").text(questions[actual_question].option1);
         $("#option2").text(questions[actual_question].option2);
